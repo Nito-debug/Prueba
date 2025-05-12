@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de restaurante</title>
+    <link rel="icon" href="cubierto.jpg" type="image/jpg">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+        <header>
+            <h1>Carta</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#menus">Menus</a></li>
+                    <li><a href="reservas.html">Reservas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>        
+        </header>
+
+    <main>
+         <section id="menus">
+            <h2>Entradas</h2>
+            <ul>
+                <li>Picada</li>
+                <li>Empanadas</li>
+                <li>Papas</li>
+            </ul>
+         </section>
+
+         <hr>
+
+         <section>
+            <h2>Plato principal</h2>
+            <ul>
+                <li>Asado</li>
+                <li>Pollo</li>
+                <li>Ensalada</li>
+            </ul>
+         </section>
+
+         <hr>
+
+         <section>
+            <h2>Postres</h2>
+            <ul>
+                <li>Helado</li>
+                <li>Flan</li>
+                <li>Fruta</li>
+            </ul>
+         </section>
+
+         <hr>
+
+         <section>
+            <h2>Bebidas</h2>
+            <ul>
+               <li>Vino</li>
+               <li>Cerveza</li>
+               <li>Gaseosa</li>
+            </ul>
+         </section>
+    </main>
+<hr>
+
+
+<div class="seccion-contacto">
+<footer>
+    <h2 id="contacto">Contacto</h2>
+
+    <form action="enviar_mensaje.php" method="post" class="formulario-contacto" arial-label="formulario de contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="email"><br><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar" aria-label="Enviar mensaje">
+    </form>
+
+    <p>&copy; 2025 Restaurante. Todos los derechos reservados.</p>
+    <p>Desarrollado por Bryan</p>
+</footer>
+
+</div>
+
+</body>
+
+</html>
